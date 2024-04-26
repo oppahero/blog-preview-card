@@ -5,6 +5,21 @@
   --grey: #7f7f7f;
 }
 
+@font-face {
+  font-family: "Figtree";
+  src: url("../fonts/Figtree.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("../fonts/static/Figtree-ExtraBold.ttf") format("truetype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Figtree";
+  src: url("../fonts/static/Figtree-SemiBold.ttf") format("truetype");
+  font-weight: 500;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +27,8 @@
 
 body {
   background-color: var(--yellow);
+  font-size: 0.875rem ; /* 14px */
+  font-family: Figtree;
 }
 
 main {
@@ -22,28 +39,46 @@ main {
   align-items: center;
 }
 
+.category {
+  padding: 4px 12px;
+  border-radius: 5px;
+  font-size: 0.75rem;  /* 12px; */
+  font-weight: 800;
+  line-height: 150%;
+}
+
+.category--yelow {
+  background: var(--yellow);
+}
+
 .card {
-  width: 327px;
+  min-width: 327px;
   max-width: 384px;
   padding: 24px;
+  margin: 0 24px;
   border-radius: 20px;
+  box-shadow: 8px 8px #000;
+  border: 1px solid var(--black);
   background-color: var(--white);
   display: flex;
   flex-direction: column;
   gap: 24px;
-  border:  1px solid var(--black);
 }
 
 .card__blog-image {
   height: 200px;
   border-radius: 10px;
-  background: center / contain no-repeat url("../img/illustration-article.svg");
+  background: center / cover no-repeat url("../img/illustration-article.svg");
 }
 
 .card__blog-author {
   display: flex;
   align-items: center;
-  column-gap: 10px;
+  column-gap: 12px;
+}
+
+.card__blog-author p {
+  font-weight: 700;
 }
 
 .card__content {
@@ -54,12 +89,41 @@ main {
 
 .card__content h1 {
   margin: 0;
+  font-size: 1.25rem;  /* 20px; */
+  font-weight: 700;
+  line-height: 150%;
 }
 
-.category {
-  padding: 4px 12px;
+.card__content > p:first-of-type {
+  font-size: 0.75rem; /* 12px; */
+  line-height: 150%;
 }
 
-.category--yelow {
-  background: var(--yellow);
+.card__content > p:last-child {
+  color: var(--grey);
+  line-height: 150%;
+}
+
+h1:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+@media (min-width: 1001px) {
+    .category{
+        font-size: 0.875rem;
+    }
+    
+    .card__content h1 {
+        font-size: 1.5rem;
+    }
+
+    .card__content > p:first-of-type {
+        font-size: 0.875rem;
+    }
+
+    .card__content > p:last-child {
+        font-size: 1rem ; /* 14px */
+
+    }
 }
