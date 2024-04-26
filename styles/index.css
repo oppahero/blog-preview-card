@@ -119,11 +119,10 @@ h1:hover{
     }
 
     .card__content > p:first-of-type {
-        font-size: 0.875rem;
+        font-size: 0.85rem;
     }
 
     .card__content > p:last-child {
-        font-size: 1rem ; /* 14px */
-
+        font-size: 1rem ; 
     }
 }
