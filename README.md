@@ -42,7 +42,7 @@ Users be able to:
 
 ### Useful resources
 
-- [MDN Web docs](https://developer.mozilla.org/es/docs/Web/CSS) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [MDN Web docs](https://developer.mozilla.org/es/docs/Web/CSS) 
 
 ## Author
 
