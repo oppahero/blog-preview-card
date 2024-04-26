@@ -27,7 +27,7 @@
 
 body {
   background-color: var(--yellow);
-  font-size: 0.875rem ; /* 14px */
+  font-size: 0.875rem; /* 14px */
   font-family: Figtree;
 }
 
@@ -42,9 +42,10 @@ main {
 .category {
   padding: 4px 12px;
   border-radius: 5px;
-  font-size: 0.75rem;  /* 12px; */
+  font-size: 0.75rem; /* 12px; */
   font-weight: 800;
   line-height: 150%;
+  display: inline;
 }
 
 .category--yelow {
@@ -89,9 +90,10 @@ main {
 
 .card__content h1 {
   margin: 0;
-  font-size: 1.25rem;  /* 20px; */
+  font-size: 1.25rem; /* 20px; */
   font-weight: 700;
   line-height: 150%;
+  cursor: pointer;
 }
 
 .card__content > p:first-of-type {
@@ -104,25 +106,24 @@ main {
   line-height: 150%;
 }
 
-h1:hover{
-    color: var(--yellow);
-    cursor: pointer;
+h1:hover {
+  color: var(--yellow);
 }
 
 @media (min-width: 1001px) {
-    .category{
-        font-size: 0.875rem;
-    }
-    
-    .card__content h1 {
-        font-size: 1.5rem;
-    }
+  .category {
+    font-size: 0.875rem;
+  }
 
-    .card__content > p:first-of-type {
-        font-size: 0.85rem;
-    }
+  .card__content h1 {
+    font-size: 1.5rem;
+  }
 
-    .card__content > p:last-child {
-        font-size: 1rem ; 
-    }
+  .card__content > p:first-of-type {
+    font-size: 0.85rem;
+  }
+
+  .card__content > p:last-child {
+    font-size: 1rem;
+  }
 }
