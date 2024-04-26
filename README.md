@@ -46,4 +46,4 @@ Users be able to:
 
 ## Author
 
-- Frontend Mentor - [@oppahero](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@oppahero](https://www.frontendmentor.io/profile/oppahero)
