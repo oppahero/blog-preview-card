@@ -21,6 +21,7 @@ This is my solution to the [Blog preview card challenge on Frontend Mentor]
 Users be able to:
 
 - See hover and focus states for all interactive elements on the page
+- Responsive design
 
 ### Screenshot
 
