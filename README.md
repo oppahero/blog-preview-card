@@ -1,6 +1,6 @@
 # Blog preview card
 
-This is my solution to the [Blog preview card challenge on Frontend Mentor]
+This is my solution to the Blog preview card challenge on Frontend Mentor
 
 ## Table of contents
 
@@ -29,7 +29,7 @@ Users be able to:
 
 ### Links
 
-- Solution URL: [Github repo](https://github.com/oppahero/blog-preview-card)
+- Solution URL: [Blog preview card with HTML and CSS](https://www.frontendmentor.io/solutions/blog-preview-card-with-html-and-css-WM68XNO0UJ)
 - Live Site URL: [Live site](https://oppahero.github.io/blog-preview-card/)
 
 ## My process
